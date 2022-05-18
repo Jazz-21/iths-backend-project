@@ -1,0 +1,27 @@
+{
+  "name": "jaya_backend_project",
+  "version": "1.0.0",
+  "description": "Building backend of fullstack app for hamsterswar using express, node js and firebase",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "firebase": "node database/firebase.js",
+    "start-server": "node server.js",
+    "start": "node server.js",
+    "build": "tsc && vite build"
+  },
+  "keywords": [],
+  "author": " Jaya Mishra FEU21",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase": "^9.6.10",
+    "firebase-admin": "^10.0.2",
+    "firestore": "^1.1.6",
+    "nodemon": "^2.0.15"
+  }
+}
